@@ -38,7 +38,132 @@
     <!-- Link archivo css propio -->
     <link rel="stylesheet" href="assets/css/estilos.css" />
   </head>
+  <!-- INICIO DEL BODY -->
   <body>
+    <!--Etiqueta semantica Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/viajes.svg" alt="logo" />Viajes Chile
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"> Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"> Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carrusel -->
+    <header class="carrusel-container">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="Atacama"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="Moais"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="Pinguino"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="presentacion">
+      <div class="container my-5">
+          <h1 class="text-center fw-bold my-5">¿Quiénes Somos?</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container-title text-center">
+              <i class="fas fa-plane fs-4"></i>
+            </div>
+            <p class="mt-4 mx-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              doloremque corporis deserunt consequuntur doloribus expedita
+              quidem ipsam vero harum, minima debitis saepe accusantium
+              voluptates tenetur est maiores sint mollitia esse?.Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Nulla doloremque
+              corporis deserunt consequuntur doloribus expedita quidem ipsam
+              vero harum, minima debitis saepe accusantium voluptates tenetur
+              est maiores sint mollitia esse?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p class="mb-4 mx-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              doloremque corporis deserunt consequuntur doloribus expedita
+              quidem ipsam vero harum, minima debitis saepe accusantium
+              voluptates tenetur est maiores sint mollitia esse?. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Nulla doloremque
+              corporis deserunt consequuntur doloribus expedita quidem ipsam
+              vero harum, minima debitis saepe accusantium voluptates tenetur
+              est maiores sint mollitia esse?
+            </p>
+            <div class="container-title text-center">
+              <i class="fas fa-mountain fs-4"></i>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container-title text-center">
+              <i class="fas fa-route fs-4"></i>
+            </div>
+            <p class="mt-4 mx-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              doloremque corporis deserunt consequuntur doloribus expedita
+              quidem ipsam vero harum, minima debitis saepe accusantium
+              voluptates tenetur est maiores sint mollitia esse?. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Nulla doloremque
+              corporis deserunt consequuntur doloribus expedita quidem ipsam
+              vero harum, minima debitis saepe accusantium voluptates tenetur
+              est maiores sint mollitia esse? 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Link CDN JQuery versión 3.6-->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
