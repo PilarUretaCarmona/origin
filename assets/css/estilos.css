@@ -5,55 +5,51 @@ body {
 }
 
 nav img {
-    width: 8.25rem;
-    height: 3.3rem;
-    margin: 12px 0px 10px 40px;
-    padding-right: 0px;
+  width: 8.25rem;
+  height: 3.3rem;
+  margin: 12px 0px 10px 40px;
+  padding-right: 0px;
 }
 
- .container-title {
- background-color: #D7934B;
+.container-title {
+  background-color: #d7934b;
 }
 
 i {
-    color: white;
-    padding: 10px;   
+  color: white;
+  padding: 10px;
 }
 
-/* .carousel-slide .carousel-inner .item img {
-    height: 100px;
-}  */
+.cards {
+    background-color: #ffd579;
+}
 
+@media  (max-width: 767px) {
+    #lago {
+        max-height: 270px;
+    } 
+}
 
-/* .carousel-container .carousel-inner .item img {
-    height: 100px;
-} */
-
-/* 
-@media  (min-width: 902px) {
-    .carousel-indicators{
-        position: absolute;
-        top: 113px;
-    }
+@media  (min-width: 768px) {
+    #lago {
+        max-height: 180px;
+    } 
 }
 
 @media  (min-width: 992px) {
-    .carousel-indicators{
-        position: absolute;
-        top: 160px;
-    }
+    #lago {
+        max-height: 110px;
+    } 
 }
 
 @media  (min-width: 1200px) {
-    .carousel-indicators{
-        position: absolute;
-        top: 190px;
-    }
+    #lago {
+        max-height: 140px;
+    } 
 }
 
 @media  (min-width: 1400px) {
-    .carousel-indicators{
-        position: absolute;
-        top: 220px;
-    }
-} */
+    #lago {
+        max-height: 170px;
+    } 
+} 
