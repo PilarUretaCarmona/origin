@@ -21,35 +21,40 @@ i {
 }
 
 .cards {
-    background-color: #ffd579;
+  background-color: #ffd579;
 }
 
-@media  (max-width: 767px) {
-    #lago {
-        max-height: 270px;
-    } 
+@media (max-width: 767px) {
+  #lago {
+    max-height: 270px;
+  }
 }
 
-@media  (min-width: 768px) {
-    #lago {
-        max-height: 180px;
-    } 
+@media (min-width: 768px) {
+  #lago {
+    max-height: 180px;
+  }
 }
 
-@media  (min-width: 992px) {
-    #lago {
-        max-height: 110px;
-    } 
+@media (min-width: 992px) {
+  #lago {
+    max-height: 110px;
+  }
 }
 
-@media  (min-width: 1200px) {
-    #lago {
-        max-height: 140px;
-    } 
+@media (min-width: 1200px) {
+  #lago {
+    max-height: 140px;
+  }
 }
 
-@media  (min-width: 1400px) {
-    #lago {
-        max-height: 170px;
-    } 
-} 
+@media (min-width: 1400px) {
+  #lago {
+    max-height: 170px;
+  }
+}
+
+.typeform {
+  width: 100%;
+  height: 400px;
+}
