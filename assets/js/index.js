@@ -11,3 +11,9 @@ $(document).ready(function() {
         )
     })
 })
+
+window.addEventListener("scroll", function () {
+    console.log("Hola")
+    // Cada vez que el scrollY sea mayor o igual a 100 se agrega la clase "nuevaClase" al elemento con id "#elemento"
+    document.querySelector("#elemento").classList.toggle("nuevaClase", window.scrollY >= 20);
+})
