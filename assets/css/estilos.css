@@ -68,3 +68,13 @@ i {
 .nuevaClase {
   background-color: black !important;
 }
+
+footer {
+  color: white;
+}
+
+@media (max-width: 575px) {
+  footer a {
+    font-size: large;
+}
+}

@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $("a").click(function () {
+    $("navbar, a").click(function () {
         var scroll = this.hash
         
         $("html, body").animate(
