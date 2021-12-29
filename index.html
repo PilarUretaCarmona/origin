@@ -41,7 +41,10 @@
   <!-- INICIO DEL BODY -->
   <body>
     <!--Etiqueta semantica Nav-->
-    <nav id="elemento" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav
+      id="elemento"
+      class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/img/viajes.svg" alt="logo" />Viajes Chile
@@ -178,6 +181,23 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <div>
+                  <button
+                    id="exampleModalLabel"
+                    type="button"
+                    class="btn btn-primary btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Leer más
+                    <span
+                      class="btn"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="bottom"
+                      title="Para saber más sobre destinos con RIOS en Chile"
+                    ></span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -196,6 +216,21 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <button
+                  id="exampleModalLabeldos"
+                  type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModaldos"
+                >
+                  Leer más
+                  <span
+                    class="btn"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Para saber más sobre destinos con RIOS en Chile"
+                  ></span>
+                </button>
               </div>
             </div>
           </div>
@@ -213,6 +248,21 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <button
+                  id="exampleModalLabeltres"
+                  type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModaltres"
+                >
+                  Leer más
+                  <span
+                    class="btn"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Para saber más sobre destinos con RIOS en Chile"
+                  ></span>
+                </button>
               </div>
             </div>
           </div>
@@ -230,6 +280,21 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
+                <button
+                  id="exampleModalLabelcuatro"
+                  type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalcuatro"
+                >
+                  Leer más
+                  <span
+                    class="btn"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Para saber más sobre destinos con RIOS en Chile"
+                  ></span>
+                </button>
               </div>
             </div>
           </div>
@@ -246,7 +311,7 @@
       ></div>
     </section>
 
-
+    <!-- FOOTER -->
     <footer class="bg-dark py-4">
       <div class="container">
         <div class="row">
@@ -254,25 +319,169 @@
             <h4>Viajes Chile</h4>
           </div>
           <div class="col fs-4 text-end">
-            <a href="https://github.com/" target="_blanck"><i class="fab fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/home" target="_blanck"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/?lang=es" target="_blanck"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://m.facebook.com/login/?next&ref=dbl&fl&refid=8" target="_blanck"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://github.com/" target="_blanck"
+              ><i class="fab fa-github-square"></i
+            ></a>
+            <a href="https://www.linkedin.com/home" target="_blanck"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/?lang=es" target="_blanck"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a
+              href="https://m.facebook.com/login/?next&ref=dbl&fl&refid=8"
+              target="_blanck"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- <footer class="bg-dark py-4">
-      <div class="container">
-        <h5> Viajes Chile 
-          <span class="me-auto"></span>
-          <span><i class="fab fa-linkedin"></i></span>
-          <span> <i class="fab fa-twitter-square"></i></span>
-          <span class="me-auto"><i class="fab fa-facebook-square"></i></span>
-        </h5>
+    <!-- Modal 1-->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Rios en Chile</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Podemos ver muchos rios a lo largo de todo chile, como el Río Loa,
+            Copiapó, Elqui, La Ligua, Maipo, Rapel Maule, Biobio, Toltén,
+            Valdivia, Futaleufú, Baker entre otros.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
       </div>
-    </footer> -->
+    </div>
+
+    <!-- Modal 2-->
+    <div
+      class="modal fade"
+      id="exampleModaldos"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabeldos">Lagos en Chile</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Podemos ver muchos lagos a lo largo de todo chile, como el lago
+            Chungara, Peñuelas, Rapel, Colbún, Machicura, Lanalhue, Icalma,
+            Conguillío, Budi, Colico, Caburga, Villarrica, Calafquén,
+            Panguipulli, Ranco, Gris, Rupanco, Todos los Santos, entre otros.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Modal 3-->
+      <div
+      class="modal fade"
+      id="exampleModaltres"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabeltres">Desiertos en Chile</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Podemos ver desiertos en chile principalmente en el norte como: El desierto de Atacama, el Valle de la Muerte, Chiu Chiu, Las Tres Marias y la Gran Duna, Monjes de la Pacana, Paso Jama Chile, del Guatin, Mendanoso entre otros.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4-->
+    <div
+    class="modal fade"
+    id="exampleModalcuatro"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabelcuatro">Bosques en Chile</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          Podemos ver varios bosques a lo largo de todo chile principalmente en el sur como: El Bosque de Coihue puro, lenga, Matorral de Ñirre o Krummholtz, de Ñirre de Ñadi, de Olivo, de Raulí, Termo-Piltra, entre otros.
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-dismiss="modal"
+          >
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Link CDN JQuery versión 3.6-->
     <script

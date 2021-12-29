@@ -17,3 +17,8 @@ window.addEventListener("scroll", function () {
     // Cada vez que el scrollY sea mayor o igual a 100 se agrega la clase "nuevaClase" al elemento con id "#elemento"
     document.querySelector("#elemento").classList.toggle("nuevaClase", window.scrollY >= 20);
 })
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
